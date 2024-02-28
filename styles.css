@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+ body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .progress-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .circle {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #ccc;
+      margin: 0 10px;
+    }
+
+    .circle.active {
+      background-color: #4CAF50;
+    }
+
+    button {
+      margin: 0 10px;
+      padding: 8px 16px;
+      cursor: pointer;
+    }
+
+    button:disabled {
+      cursor: not-allowed;
+    }
